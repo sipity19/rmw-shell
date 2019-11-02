@@ -23,6 +23,7 @@ const config = {
     messagingSenderId: '70650394824'
   },
   firebase_providers: ['google.com', 'facebook.com', 'twitter.com', 'github.com', 'password', 'phone'],
+  signInFlow: 'redirect', // 'popup'
   initial_state: {
     theme: 'dark',
     locale: 'en'

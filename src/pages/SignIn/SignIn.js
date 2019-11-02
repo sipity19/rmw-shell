@@ -13,7 +13,7 @@ export class SignIn extends Component {
 
     const uiConfig = {
       signInSuccessUrl: '/',
-      signInFlow: 'popup',
+      signInFlow: appConfig.signInFlow, //'popup', 'redirect' (default)
       callbacks: {
         signInSuccessWithAuthResult: () => {
           // initMessaging()
